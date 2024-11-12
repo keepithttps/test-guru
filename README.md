@@ -1,27 +1,21 @@
 README
 
 This README would normally document whatever steps are necessary to get the application up and running.
+Описание проекта
 
-Things you may want to cover:
-Ruby version'3.3.2'
-Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
+Данный проект представляет собой систему тестирования, которая позволяет пользователям проходить тесты,
+состоящие из вопросов с несколькими вариантами ответов. Пользователи могут выбирать один или несколько ответов на каждый вопрос,
+а результаты тестирования сохраняются для дальнейшего анализа.
 
-gem 'rails', '~> 6.1.7'
-Use sqlite3 as the database for Active Record
-
-gem 'sqlite3', '~> 1.4'
-Use Puma as the app server
-
-gem 'puma', '~> 5.0'
-Use SCSS for stylesheets
-
-gem 'sass-rails', '>= 6'
-Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-
-gem 'webpacker', '~> 5.0'
-Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-
-gem 'turbolinks', '~> 5'
-Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.7'
-
+Структура
+1. Тесты
+    Тест: Может принадлежать к одной из категорий и состоит из набора вопросов.
+    Категории: Позволяют организовать тесты по различным темам или направлениям.
+2. Вопросы
+    Вопрос: Каждый тест состоит из нескольких вопросов.
+    Ответы: На каждый вопрос предлагается несколько вариантов ответов.
+3. Ответы
+    Пользователь может выбрать один или несколько ответов на каждый вопрос.
+    Ответы могут быть как правильными, так и неправильными.
+4. Результаты
+    Результаты тестирования сохраняются в базе данных и могут быть использованы для анализа успеваемости пользователей.
