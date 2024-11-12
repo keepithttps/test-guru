@@ -1,5 +1,5 @@
-module MyTask
-  VERSION = "1.0.0"  
+module TestGuru
+  VERSION = "0.1.0"  
 end
 # Чтобы вы могли у знать версию в любом месте вашего приложения, нужно использовать
 # например:  puts "Версия приложения: #{MyApp::VERSION}"
