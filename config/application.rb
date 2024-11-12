@@ -9,10 +9,11 @@ Bundler.require(*Rails.groups)
 module TestGuru
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
+    config.time_zone = 'UTC'
     config.load_defaults 6.1
     config.time_zone = 'Kaliningrad'
-    config.active_record. config.time_zone = 'UTC'
     config.i18n.default_locale = :ru
+    config.active_record.default_timezone = :utc
 
     # Configuration for the application, engines, and railties goes here.
     #
