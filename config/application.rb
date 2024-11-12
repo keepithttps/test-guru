@@ -6,13 +6,12 @@ require "rails/all"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module Mytask
+module TestGuru
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
     config.time_zone = 'Kaliningrad'
-    config.active_record.default_timezone = :local
-    config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
+    config.active_record. config.time_zone = 'UTC'
     config.i18n.default_locale = :ru
 
     # Configuration for the application, engines, and railties goes here.
