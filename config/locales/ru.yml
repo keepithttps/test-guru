@@ -1,0 +1,24 @@
+# config/locales/ru.yml
+ru:
+  greetings:
+    hello: "Привет"
+    goodbye: "До свидания"
+  
+  messages:
+    welcome: "Добро пожаловать"
+    farewell: "Счастливого пути!"
+  
+  errors:
+    not_found: "Не найдено"
+    unauthorized: "Неавторизованный доступ"
+
+  buttons:
+    submit: "Отправить"
+    cancel: "Отмена"
+
+  user:
+    profile:
+      title: "Профиль пользователя"
+      edit: "Редактировать профиль"
+
+
